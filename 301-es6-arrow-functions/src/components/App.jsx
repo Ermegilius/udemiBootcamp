@@ -11,10 +11,10 @@ function App() {
       <dl className="dictionary">
         {emojipedia.map(item =>
           <Entry
-          key={item.id}
-          emoji={item.emoji}
-          name={item.name}
-          description={item.meaning}
+            key={item.id}
+            emoji={item.emoji}
+            name={item.name}
+            description={item.meaning}
           />
         )}
       </dl>
