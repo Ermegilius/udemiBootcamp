@@ -7,6 +7,6 @@ const Note = (props) => {
       <p>{props.content}</p>
     </div>
   );
-}
+};
 
 export default Note;
